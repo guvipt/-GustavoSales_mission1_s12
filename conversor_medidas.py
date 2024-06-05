@@ -9,10 +9,4 @@ class ConversorMedididas:
 
     def converte_m_para_cm(valor_m):
         valor_cm = valor_m * 100
-        return
-
-# teste da area
-# testando converter 100cm para metros
-resultado = ConversorMedididas.converte_m_para_cm(1)
-
-print('resultado:', resultado)
+        return valor_cm
